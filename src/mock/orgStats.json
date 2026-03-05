@@ -1,0 +1,15 @@
+{
+  "org": "Project X",
+  "owner": "Nammagiri",
+  "totalScans": 100,
+  "scheduled": 1000,
+  "rescans": 100,
+  "failedScans": 100,
+  "lastUpdated": "10 mins ago",
+  "severity": {
+    "critical": { "count": 86, "change": "+2%", "up": true },
+    "high":     { "count": 16, "change": "+0.9%", "up": true },
+    "medium":   { "count": 26, "change": "+0.9%", "up": false },
+    "low":      { "count": 16, "change": "+0.9%", "up": true }
+  }
+}

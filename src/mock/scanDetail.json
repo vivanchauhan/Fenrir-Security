@@ -1,0 +1,21 @@
+{
+  "scanType": "Grey Box",
+  "targets": "google.com",
+  "startedAt": "Nov 22, 09:00AM",
+  "credentials": "2 Active",
+  "files": "Control.pdf",
+  "checklists": "40/350",
+  "progress": 0,
+  "status": "In Progress",
+  "steps": ["Spidering", "Mapping", "Testing", "Validating", "Reporting"],
+  "activeStep": 0,
+  "statusBar": {
+    "subAgents": 0,
+    "parallelExecutions": 2,
+    "operations": 1,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  }
+}
