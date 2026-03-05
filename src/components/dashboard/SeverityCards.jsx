@@ -15,7 +15,7 @@ export function SeverityCards() {
         return (
           <div
             key={key}
-            className="bg-white dark:bg-[#0f172a] rounded-xl p-5 border border-black/[0.08] dark:border-white/[0.06]"
+            className="bg-white dark:bg-[#1a1a1a] rounded-xl p-5 border border-black/[0.08] dark:border-white/[0.06]"
           >
             <div className="flex items-center justify-between mb-2.5">
               <span className="text-slate-400 text-sm font-medium">{label}</span>

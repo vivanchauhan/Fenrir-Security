@@ -11,7 +11,7 @@ export function OrgStatsBar() {
   ];
 
   return (
-    <div className="px-7 py-3 bg-white dark:bg-[#0f172a] border-b border-black/[0.08] dark:border-white/[0.06] flex items-center flex-wrap gap-y-1.5">
+    <div className="px-7 py-3 bg-white dark:bg-[#1a1a1a] border-b border-black/[0.08] dark:border-white/[0.06] flex items-center flex-wrap gap-y-1.5">
       {stats.map((s, i) => (
         <span key={s.label} className="flex items-center">
           <span className="text-sm text-slate-400">

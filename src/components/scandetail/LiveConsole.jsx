@@ -70,7 +70,7 @@ export function LiveConsole() {
   const [activeTab, setActiveTab] = useState("Activity Log");
 
   return (
-    <div className="bg-white dark:bg-[#0f172a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] overflow-hidden flex flex-col">
+    <div className="bg-white dark:bg-[#1a1a1a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] overflow-hidden flex flex-col">
       {/* Header */}
       <div className="px-5 py-3.5 border-b border-black/[0.08] dark:border-white/[0.06] flex items-center gap-3">
         <span className="w-2 h-2 rounded-full bg-[#0CC8A8] inline-block" />
@@ -117,7 +117,7 @@ export function LiveConsole() {
       </div>
 
       {/* Log output */}
-      <div className="p-5 font-mono text-xs leading-7 bg-slate-50 dark:bg-[#0d1117] max-h-[340px] overflow-y-auto flex-1">
+      <div className="p-5 font-mono text-xs leading-7 bg-slate-50 dark:bg-[#111111] max-h-[340px] overflow-y-auto flex-1">
         {activeTab === "Activity Log" ? (
           logs.map((log, i) => (
             <div key={i} className="mb-2">

@@ -5,7 +5,7 @@ export function TopBar() {
   const { showToast } = useToast();
 
   return (
-    <header className="px-7 py-3 border-b border-black/[0.08] dark:border-white/[0.06] flex items-center justify-between bg-white dark:bg-[#0f172a] flex-shrink-0">
+    <header className="px-7 py-3 border-b border-black/[0.08] dark:border-white/[0.06] flex items-center justify-between bg-white dark:bg-[#1a1a1a] flex-shrink-0">
       {/* Breadcrumb */}
       <nav aria-label="breadcrumb" className="flex items-center gap-1.5 text-sm text-slate-400">
         <span className="font-semibold text-slate-800 dark:text-slate-200">Scan</span>

@@ -9,7 +9,7 @@ export function ScanProgress() {
   const offset = circumference - (progress / 100) * circumference;
 
   return (
-    <div className="bg-white dark:bg-[#0f172a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] p-6 mb-5 flex items-center gap-8">
+    <div className="bg-white dark:bg-[#1a1a1a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] p-6 mb-5 flex items-center gap-8">
       {/* Circular progress */}
       <div className="relative w-[110px] h-[110px] flex-shrink-0">
         <svg width="110" height="110" style={{ transform: "rotate(-90deg)" }}>

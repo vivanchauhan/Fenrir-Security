@@ -11,7 +11,7 @@ const FIELDS = [
 
 export function MetadataRow() {
   return (
-    <div className="bg-white dark:bg-[#0f172a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] px-6 py-4 mb-5 flex flex-wrap gap-8">
+    <div className="bg-white dark:bg-[#1a1a1a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] px-6 py-4 mb-5 flex flex-wrap gap-8">
       {FIELDS.map(({ label, key }) => (
         <div key={key}>
           <div className="text-xs text-slate-400 mb-0.5">{label}</div>

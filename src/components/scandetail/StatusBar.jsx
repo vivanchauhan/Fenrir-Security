@@ -4,7 +4,7 @@ export function StatusBar() {
   const { subAgents, parallelExecutions, operations, critical, high, medium, low } = scanDetail.statusBar;
 
   return (
-    <div className="bg-white dark:bg-[#0f172a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] px-5 py-2.5 flex items-center gap-6 text-xs flex-wrap">
+    <div className="bg-white dark:bg-[#1a1a1a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] px-5 py-2.5 flex items-center gap-6 text-xs flex-wrap">
       {[
         { label: "Sub-Agents",          value: subAgents },
         { label: "Parallel Executions", value: parallelExecutions },

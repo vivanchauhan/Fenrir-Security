@@ -17,7 +17,7 @@ export function ScanToolbar({ search, onSearchChange }) {
           placeholder="Search scans by name or type..."
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
-          className="w-full pl-9 pr-3 py-2 rounded-lg border border-black/[0.08] dark:border-white/[0.06] bg-white dark:bg-[#0f172a] text-slate-800 dark:text-slate-200 text-sm outline-none font-sans placeholder:text-slate-400"
+          className="w-full pl-9 pr-3 py-2 rounded-lg border border-black/[0.08] dark:border-white/[0.06] bg-white dark:bg-[#1a1a1a] text-slate-800 dark:text-slate-200 text-sm outline-none font-sans placeholder:text-slate-400"
         />
       </div>
 

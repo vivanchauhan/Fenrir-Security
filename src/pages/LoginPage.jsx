@@ -60,7 +60,7 @@ export function LoginPage({ onLogin }) {
           </h2>
           <p className="text-center text-sm text-slate-400 mb-6">
             Already have an account?{" "}
-            <span className="text-[#0CC8A8] cursor-pointer font-semibold">
+            <span className="text-[#0CC8A8] cursor-pointer  underline">
               Log in
             </span>
           </p>

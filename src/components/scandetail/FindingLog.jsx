@@ -7,7 +7,7 @@ export function FindingLog() {
   const [selectedId, setSelectedId] = useState(null);
 
   return (
-    <div className="bg-white dark:bg-[#0f172a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] overflow-hidden">
+    <div className="bg-white dark:bg-[#1a1a1a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] overflow-hidden">
       <div className="px-5 py-3.5 border-b border-black/[0.08] dark:border-white/[0.06]">
         <span className="font-semibold text-slate-800 dark:text-slate-200 text-sm">Finding Log</span>
       </div>

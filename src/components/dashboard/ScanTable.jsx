@@ -6,7 +6,7 @@ const COLUMNS = ["Scan Name", "Type", "Status", "Progress", "Vulnerability", "La
 
 export function ScanTable({ scans, onRowClick }) {
   return (
-    <div className="bg-white dark:bg-[#0f172a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] overflow-hidden">
+    <div className="bg-white dark:bg-[#1a1a1a] rounded-xl border border-black/[0.08] dark:border-white/[0.06] overflow-hidden">
       <table className="w-full border-collapse">
         <thead>
           <tr className="border-b border-black/[0.08] dark:border-white/[0.06]">
